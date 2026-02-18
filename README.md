@@ -1,9 +1,9 @@
-Memory Card Match Game (Java Swing)
+#Memory Card Match Game (Java Swing)
 
 This is a Memory Card Matching Game built using Java Swing.
 Players flip cards to find matching image pairs.
 
-The game supports:
+#The game supports:
 Single Player vs AI
 Two Player (Friends) Mode
 Multiple image categories
@@ -11,13 +11,13 @@ Score tracking and winner announcement
 
 The goal is to match more pairs than the opponent before all cards are revealed.
 
-Game Features
+#Game Features
 
-1. Game Modes
+#1. Game Modes
 Play with AI → Compete against a computer player with memory logic.
 Play with Friends → Two human players take turns.
 
-2. Categories
+#2. Categories
 Players can choose from:
 Flower
 Bird
@@ -27,7 +27,7 @@ Fruit
 
 Each category contains 8 image pairs (16 cards total).
 
-3. Gameplay Rules
+#3. Gameplay Rules
 Players flip two cards per turn.
 If the cards match, the player:
 Earns 1 point
@@ -38,16 +38,16 @@ Turn switches to the opponent
 The game ends when all cards are matched.
 The player with the highest score wins.
 
-AI Logic
+#AI Logic
 
-The AI player:
+#The AI player:
 Remembers previously revealed cards
 Chooses known matching pairs when possible
 Otherwise selects random enabled cards
 
 This simulates a basic memory-based intelligent opponent.
 
-Technologies Used
+#Technologies Used
 
 Java
 Java Swing (GUI)
